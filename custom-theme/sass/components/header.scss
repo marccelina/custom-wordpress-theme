@@ -1,0 +1,17 @@
+.site-header {
+  padding: 0 20px;
+  background: $background__white;
+
+  @media (min-width: map-get($breakpoints, xxxl)) {
+    padding: 0 35px;
+  }
+
+  &__logo {
+    max-width: $site-width;
+    margin: auto;
+
+    img {
+      padding: 20px 0;
+    }
+  }
+}

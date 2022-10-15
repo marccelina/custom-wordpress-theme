@@ -1,0 +1,105 @@
+/*
+Theme Name: Custom Wordpress
+Description:
+Author: Marcelina Choszcz
+Version: 1.0
+*/
+
+.site-header {
+  padding: 0 20px;
+  background: #FFFFFF;
+}
+@media (min-width: 1600px) {
+  .site-header {
+    padding: 0 35px;
+  }
+}
+.site-header__logo {
+  max-width: 1200px;
+  margin: auto;
+}
+.site-header__logo img {
+  padding: 20px 0;
+}
+
+.section {
+  max-width: 1200px;
+  margin: auto;
+}
+.section__content {
+  font-family: "Rubik";
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.section__content h1 {
+  font-size: 40px;
+  line-height: 52px;
+  padding-bottom: 5px;
+}
+.section__content p {
+  font-size: 20px;
+  line-height: 32px;
+}
+.section__content h2 {
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 35px;
+}
+.section__content--dark-blue {
+  color: #FFFFFF;
+}
+.section__content--light-blue {
+  color: #2D3236;
+}
+.section__boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media only screen and (max-width: 1000px) {
+  .section__boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .section__boxes {
+    grid-template-columns: 1fr;
+  }
+}
+.section__box {
+  background-color: #FFFFFF;
+  font-family: "Rubik";
+  font-weight: 300;
+  text-align: center;
+  padding: 35px 30px 60px;
+}
+.section__box h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3236;
+}
+.section__box p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #808080;
+}
+.section__pink-dot {
+  width: 32px;
+  margin: 70px auto -22px;
+}
+
+section.separator--pink-dot {
+  padding: 50px 70px 0;
+}
+section.separator--none {
+  padding: 50px 70px 70px;
+}
+
+.background--dark-blue {
+  background-color: #215398;
+}
+
+.background--light-blue {
+  background-color: #F1F6FC;
+}
